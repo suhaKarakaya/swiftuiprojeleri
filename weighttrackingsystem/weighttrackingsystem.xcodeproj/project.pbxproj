@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C8DB792AFCE7BC00DF2776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB782AFCE7BC00DF2776 /* AppDelegate.swift */; };
+		02C8DB7B2AFCE7BC00DF2776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB7A2AFCE7BC00DF2776 /* SceneDelegate.swift */; };
+		02C8DB7D2AFCE7BC00DF2776 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB7C2AFCE7BC00DF2776 /* MainViewController.swift */; };
+		02C8DB802AFCE7BC00DF2776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C8DB7E2AFCE7BC00DF2776 /* Main.storyboard */; };
+		02C8DB832AFCE7BC00DF2776 /* weighttrackingsystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB812AFCE7BC00DF2776 /* weighttrackingsystem.xcdatamodeld */; };
+		02C8DB852AFCE7BE00DF2776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C8DB842AFCE7BE00DF2776 /* Assets.xcassets */; };
+		02C8DB882AFCE7BE00DF2776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C8DB862AFCE7BE00DF2776 /* LaunchScreen.storyboard */; };
+		02C8DB912AFCE7D800DF2776 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 02C8DB902AFCE7D800DF2776 /* Lottie */; };
+		02C8DB932AFCE84E00DF2776 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C8DB922AFCE84E00DF2776 /* Colors.xcassets */; };
+		02C8DB962AFCE88C00DF2776 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB952AFCE88C00DF2776 /* AddViewController.swift */; };
+		02C8DB982AFCE89D00DF2776 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB972AFCE89D00DF2776 /* ChatViewController.swift */; };
+		02C8DB9A2AFCE8BE00DF2776 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB992AFCE8BE00DF2776 /* MainViewModel.swift */; };
+		02C8DB9C2AFCE8C800DF2776 /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB9B2AFCE8C800DF2776 /* AddViewModel.swift */; };
+		02C8DB9E2AFCE8D400DF2776 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DB9D2AFCE8D400DF2776 /* ChatViewModel.swift */; };
+		02C8DBA32AFCE97E00DF2776 /* splashanimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 02C8DBA22AFCE97E00DF2776 /* splashanimation.json */; };
+		02C8DBA52AFCF65700DF2776 /* CircleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DBA42AFCF65700DF2776 /* CircleBar.swift */; };
+		02C8DBA82AFD22CD00DF2776 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DBA72AFD22CD00DF2776 /* UIColor+Extension.swift */; };
+		02C8DBAA2AFD236E00DF2776 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DBA92AFD236E00DF2776 /* UIView+Extension.swift */; };
+		02C8DBAC2AFD26F200DF2776 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DBAB2AFD26F200DF2776 /* UIViewController+Extension.swift */; };
+		02C8DBAE2AFD2ABB00DF2776 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DBAD2AFD2ABB00DF2776 /* UIBarButtonItem+Extension.swift */; };
+		02C8DBB02AFD2B4D00DF2776 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8DBAF2AFD2B4D00DF2776 /* SecondViewController.swift */; };
+		02CE399A2AFE67F400E87B45 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CE39992AFE67F400E87B45 /* CoreData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02C8DB752AFCE7BC00DF2776 /* weighttrackingsystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weighttrackingsystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C8DB782AFCE7BC00DF2776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02C8DB7A2AFCE7BC00DF2776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02C8DB7C2AFCE7BC00DF2776 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		02C8DB7F2AFCE7BC00DF2776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C8DB822AFCE7BC00DF2776 /* weighttrackingsystem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weighttrackingsystem.xcdatamodel; sourceTree = "<group>"; };
+		02C8DB842AFCE7BE00DF2776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C8DB872AFCE7BE00DF2776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02C8DB892AFCE7BE00DF2776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C8DB922AFCE84E00DF2776 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		02C8DB952AFCE88C00DF2776 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		02C8DB972AFCE89D00DF2776 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		02C8DB992AFCE8BE00DF2776 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		02C8DB9B2AFCE8C800DF2776 /* AddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
+		02C8DB9D2AFCE8D400DF2776 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		02C8DBA22AFCE97E00DF2776 /* splashanimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = splashanimation.json; path = weighttrackingsystem/splashanimation.json; sourceTree = SOURCE_ROOT; };
+		02C8DBA42AFCF65700DF2776 /* CircleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBar.swift; sourceTree = "<group>"; };
+		02C8DBA72AFD22CD00DF2776 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		02C8DBA92AFD236E00DF2776 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		02C8DBAB2AFD26F200DF2776 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		02C8DBAD2AFD2ABB00DF2776 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		02C8DBAF2AFD2B4D00DF2776 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		02CE39992AFE67F400E87B45 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C8DB722AFCE7BC00DF2776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8DB912AFCE7D800DF2776 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C8DB6C2AFCE7BC00DF2776 = {
+			isa = PBXGroup;
+			children = (
+				02C8DB772AFCE7BC00DF2776 /* weighttrackingsystem */,
+				02C8DB762AFCE7BC00DF2776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C8DB762AFCE7BC00DF2776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C8DB752AFCE7BC00DF2776 /* weighttrackingsystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C8DB772AFCE7BC00DF2776 /* weighttrackingsystem */ = {
+			isa = PBXGroup;
+			children = (
+				02C8DBA62AFD22B500DF2776 /* Extension */,
+				02C8DBA12AFCE8ED00DF2776 /* Chat */,
+				02C8DBA02AFCE8E500DF2776 /* Add */,
+				02C8DB9F2AFCE8D900DF2776 /* Main */,
+				02C8DB942AFCE85200DF2776 /* Resources */,
+				02C8DB7E2AFCE7BC00DF2776 /* Main.storyboard */,
+				02C8DB862AFCE7BE00DF2776 /* LaunchScreen.storyboard */,
+				02C8DB892AFCE7BE00DF2776 /* Info.plist */,
+				02C8DB812AFCE7BC00DF2776 /* weighttrackingsystem.xcdatamodeld */,
+				02C8DBA42AFCF65700DF2776 /* CircleBar.swift */,
+			);
+			path = weighttrackingsystem;
+			sourceTree = "<group>";
+		};
+		02C8DB942AFCE85200DF2776 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02C8DB7A2AFCE7BC00DF2776 /* SceneDelegate.swift */,
+				02C8DB782AFCE7BC00DF2776 /* AppDelegate.swift */,
+				02C8DB842AFCE7BE00DF2776 /* Assets.xcassets */,
+				02C8DB922AFCE84E00DF2776 /* Colors.xcassets */,
+				02C8DBA22AFCE97E00DF2776 /* splashanimation.json */,
+				02C8DBAF2AFD2B4D00DF2776 /* SecondViewController.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02C8DB9F2AFCE8D900DF2776 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				02C8DB7C2AFCE7BC00DF2776 /* MainViewController.swift */,
+				02C8DB992AFCE8BE00DF2776 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		02C8DBA02AFCE8E500DF2776 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				02C8DB9B2AFCE8C800DF2776 /* AddViewModel.swift */,
+				02C8DB952AFCE88C00DF2776 /* AddViewController.swift */,
+				02CE39992AFE67F400E87B45 /* CoreData.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		02C8DBA12AFCE8ED00DF2776 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				02C8DB972AFCE89D00DF2776 /* ChatViewController.swift */,
+				02C8DB9D2AFCE8D400DF2776 /* ChatViewModel.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		02C8DBA62AFD22B500DF2776 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				02C8DBA72AFD22CD00DF2776 /* UIColor+Extension.swift */,
+				02C8DBA92AFD236E00DF2776 /* UIView+Extension.swift */,
+				02C8DBAB2AFD26F200DF2776 /* UIViewController+Extension.swift */,
+				02C8DBAD2AFD2ABB00DF2776 /* UIBarButtonItem+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C8DB742AFCE7BC00DF2776 /* weighttrackingsystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C8DB8C2AFCE7BE00DF2776 /* Build configuration list for PBXNativeTarget "weighttrackingsystem" */;
+			buildPhases = (
+				02C8DB712AFCE7BC00DF2776 /* Sources */,
+				02C8DB722AFCE7BC00DF2776 /* Frameworks */,
+				02C8DB732AFCE7BC00DF2776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weighttrackingsystem;
+			packageProductDependencies = (
+				02C8DB902AFCE7D800DF2776 /* Lottie */,
+			);
+			productName = weighttrackingsystem;
+			productReference = 02C8DB752AFCE7BC00DF2776 /* weighttrackingsystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C8DB6D2AFCE7BC00DF2776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02C8DB742AFCE7BC00DF2776 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 02C8DB702AFCE7BC00DF2776 /* Build configuration list for PBXProject "weighttrackingsystem" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C8DB6C2AFCE7BC00DF2776;
+			packageReferences = (
+				02C8DB8F2AFCE7D800DF2776 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
+			productRefGroup = 02C8DB762AFCE7BC00DF2776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C8DB742AFCE7BC00DF2776 /* weighttrackingsystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C8DB732AFCE7BC00DF2776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8DB882AFCE7BE00DF2776 /* LaunchScreen.storyboard in Resources */,
+				02C8DB932AFCE84E00DF2776 /* Colors.xcassets in Resources */,
+				02C8DBA32AFCE97E00DF2776 /* splashanimation.json in Resources */,
+				02C8DB852AFCE7BE00DF2776 /* Assets.xcassets in Resources */,
+				02C8DB802AFCE7BC00DF2776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C8DB712AFCE7BC00DF2776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8DB9A2AFCE8BE00DF2776 /* MainViewModel.swift in Sources */,
+				02C8DBAC2AFD26F200DF2776 /* UIViewController+Extension.swift in Sources */,
+				02C8DBA52AFCF65700DF2776 /* CircleBar.swift in Sources */,
+				02C8DBB02AFD2B4D00DF2776 /* SecondViewController.swift in Sources */,
+				02C8DB962AFCE88C00DF2776 /* AddViewController.swift in Sources */,
+				02C8DBA82AFD22CD00DF2776 /* UIColor+Extension.swift in Sources */,
+				02C8DB9C2AFCE8C800DF2776 /* AddViewModel.swift in Sources */,
+				02C8DB7D2AFCE7BC00DF2776 /* MainViewController.swift in Sources */,
+				02C8DBAA2AFD236E00DF2776 /* UIView+Extension.swift in Sources */,
+				02C8DB792AFCE7BC00DF2776 /* AppDelegate.swift in Sources */,
+				02C8DB7B2AFCE7BC00DF2776 /* SceneDelegate.swift in Sources */,
+				02C8DBAE2AFD2ABB00DF2776 /* UIBarButtonItem+Extension.swift in Sources */,
+				02CE399A2AFE67F400E87B45 /* CoreData.swift in Sources */,
+				02C8DB982AFCE89D00DF2776 /* ChatViewController.swift in Sources */,
+				02C8DB9E2AFCE8D400DF2776 /* ChatViewModel.swift in Sources */,
+				02C8DB832AFCE7BC00DF2776 /* weighttrackingsystem.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02C8DB7E2AFCE7BC00DF2776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C8DB7F2AFCE7BC00DF2776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C8DB862AFCE7BE00DF2776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C8DB872AFCE7BE00DF2776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C8DB8A2AFCE7BE00DF2776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02C8DB8B2AFCE7BE00DF2776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C8DB8D2AFCE7BE00DF2776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = weighttrackingsystem/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weight Tracking System";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gakbil.weighttrackingsystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C8DB8E2AFCE7BE00DF2776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = weighttrackingsystem/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weight Tracking System";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gakbil.weighttrackingsystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C8DB702AFCE7BC00DF2776 /* Build configuration list for PBXProject "weighttrackingsystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C8DB8A2AFCE7BE00DF2776 /* Debug */,
+				02C8DB8B2AFCE7BE00DF2776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C8DB8C2AFCE7BE00DF2776 /* Build configuration list for PBXNativeTarget "weighttrackingsystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C8DB8D2AFCE7BE00DF2776 /* Debug */,
+				02C8DB8E2AFCE7BE00DF2776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02C8DB8F2AFCE7D800DF2776 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02C8DB902AFCE7D800DF2776 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C8DB8F2AFCE7D800DF2776 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		02C8DB812AFCE7BC00DF2776 /* weighttrackingsystem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02C8DB822AFCE7BC00DF2776 /* weighttrackingsystem.xcdatamodel */,
+			);
+			currentVersion = 02C8DB822AFCE7BC00DF2776 /* weighttrackingsystem.xcdatamodel */;
+			path = weighttrackingsystem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02C8DB6D2AFCE7BC00DF2776 /* Project object */;
+}

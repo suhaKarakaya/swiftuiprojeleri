@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B54EBEE2-70A8-45F2-8312-B707ACDB0762"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E747E7B-C723-4A9A-BDA2-E45D10F6E9CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1E747E7B-C723-4A9A-BDA2-E45D10F6E9CD - 14f1b6b2b784575f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "1E747E7B-C723-4A9A-BDA2-E45D10F6E9CD - 1407306847d7b547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "1E747E7B-C723-4A9A-BDA2-E45D10F6E9CD - 975bd4ed5ef7d03d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "1E747E7B-C723-4A9A-BDA2-E45D10F6E9CD - cb697e64ed8d7145"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1E747E7B-C723-4A9A-BDA2-E45D10F6E9CD - 8e73ac6713643d4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BB854E0-4929-4735-8695-3B636668F4E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6BB854E0-4929-4735-8695-3B636668F4E8 - 921f79b5c2e808e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "2728">
+               </Location>
+               <Location
+                  uuid = "6BB854E0-4929-4735-8695-3B636668F4E8 - 28fc87655891d05c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "6BB854E0-4929-4735-8695-3B636668F4E8 - 8e73ac6713643253"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "6BB854E0-4929-4735-8695-3B636668F4E8 - b15c603412845739"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "6BB854E0-4929-4735-8695-3B636668F4E8 - 4d55da63b95bf651"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer)&gt; in SwiftUIFirebaseBootcamp.SignInEmailView.body.getter : some"
+                  moduleName = "SwiftUIFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhakarakaya/Desktop/swiftuiprojeleri/SwiftUIFirebaseBootcamp/SwiftUIFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

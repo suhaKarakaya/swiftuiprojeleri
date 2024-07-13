@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22C65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MainScreenLastData" representedClassName="MainScreenLastData" syncable="YES" codeGenerationType="class">
+        <attribute name="bmr" optional="YES" attributeType="String"/>
+        <attribute name="current_weight" optional="YES" attributeType="String"/>
+        <attribute name="idealKg" optional="YES" attributeType="String"/>
+        <attribute name="rate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="startWeight" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="target_weight" optional="YES" attributeType="String"/>
+        <attribute name="vki" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WeightTrackingSystemData" representedClassName="WeightTrackingSystemData" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="bmr" optional="YES" attributeType="String"/>
+        <attribute name="current_weight" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gender" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idealKg" optional="YES" attributeType="String"/>
+        <attribute name="rate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="String"/>
+        <attribute name="startWeight" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="target_weight" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="vki" optional="YES" attributeType="String"/>
+    </entity>
+</model>
